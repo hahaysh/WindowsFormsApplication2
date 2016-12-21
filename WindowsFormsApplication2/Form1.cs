@@ -16,5 +16,10 @@ namespace WindowsFormsApplication2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("메시지를 보입니다.");
+        }
     }
 }
