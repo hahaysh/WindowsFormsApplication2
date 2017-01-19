@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication2
+﻿namespace WindowsFormsApplication1
 {
     partial class Form1
     {
@@ -33,19 +33,19 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Location = new System.Drawing.Point(86, 32);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(245, 121);
             this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
+            this.button1.Text = "눌러줘";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(627, 410);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";

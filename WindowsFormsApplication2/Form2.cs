@@ -10,16 +10,27 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
+        string zerg;
+        string terran;
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("안녕하세요.");
+            zerg = "지현아";
+            terran = "사랑해";
+            MessageBox.Show(zerg + terran);
+        }
+
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            terran = "사랑해";
+            MessageBox.Show(terran);
         }
     }
 }
