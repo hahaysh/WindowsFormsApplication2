@@ -29,5 +29,10 @@ namespace WindowsFormsApplication1
         {
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
