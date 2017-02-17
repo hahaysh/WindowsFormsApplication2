@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -23,7 +24,9 @@ namespace WindowsFormsApplication1
             {
                 if (control is RadioButton)
                 {
+                    //RadioButton rdBtn = control as RadioButton;
                     RadioButton rdBtn = control as RadioButton;
+                    //rdBtn = null;
 
                     if (rdBtn.Checked == true)
                     {
@@ -39,5 +42,11 @@ namespace WindowsFormsApplication1
         {
             
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SqlCommand cmd = new SqlCommand();
+        }
     }
+
 }
