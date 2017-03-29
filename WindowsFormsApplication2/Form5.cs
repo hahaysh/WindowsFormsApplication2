@@ -56,5 +56,28 @@ namespace WindowsFormsApplication1
 
             return returnText;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int iKor = 0;
+
+            iKor = Convert.ToInt16(textBox1.Text);
+            if (iKor > 90)
+            {
+                textBox1.Text = "수";
+            }
+            else if (iKor > 80)
+            {
+                textBox1.Text = "우";
+            }
+            else if (iKor > 70)
+            {
+                textBox1.Text = "미";
+            }
+            else
+            {
+                textBox1.Text = "가";
+            }
+        }
     }
 }

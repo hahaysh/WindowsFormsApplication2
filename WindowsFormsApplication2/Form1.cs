@@ -19,6 +19,7 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //사랑해
             MessageBox.Show("안녕하세요.");
         }
     }

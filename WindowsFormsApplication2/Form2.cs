@@ -16,6 +16,7 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
         string zerg;
         string terran;
 
@@ -26,11 +27,5 @@ namespace WindowsFormsApplication1
             MessageBox.Show(zerg + terran);
         }
 
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            terran = "사랑해";
-            MessageBox.Show(terran);
-        }
     }
 }
