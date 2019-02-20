@@ -37,37 +37,37 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(43, 35);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Location = new System.Drawing.Point(43, 37);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(81, 25);
+            this.textBox1.Size = new System.Drawing.Size(81, 22);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "70";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(43, 72);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Location = new System.Drawing.Point(43, 77);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(81, 25);
+            this.textBox2.Size = new System.Drawing.Size(81, 22);
             this.textBox2.TabIndex = 1;
             this.textBox2.Text = "80";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(43, 115);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Location = new System.Drawing.Point(43, 123);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(81, 25);
+            this.textBox3.Size = new System.Drawing.Size(81, 22);
             this.textBox3.TabIndex = 2;
             this.textBox3.Text = "90";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(153, 127);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(153, 135);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(262, 85);
+            this.button1.Size = new System.Drawing.Size(262, 91);
             this.button1.TabIndex = 3;
             this.button1.Text = "성적계산(함수)";
             this.button1.UseVisualStyleBackColor = true;
@@ -75,25 +75,25 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(153, 34);
+            this.button2.Location = new System.Drawing.Point(153, 36);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(262, 74);
+            this.button2.Size = new System.Drawing.Size(262, 79);
             this.button2.TabIndex = 4;
-            this.button2.Text = "성정계산(노가다)";
+            this.button2.Text = "성적계산(노가다)";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form5
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(562, 361);
+            this.ClientSize = new System.Drawing.Size(562, 385);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form5";
             this.Text = "Form5";
             this.ResumeLayout(false);
